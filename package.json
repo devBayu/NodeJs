@@ -1,0 +1,24 @@
+{
+  "name": "e-music",
+  "version": "1.0.0",
+  "description": "first try using node js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "start:dev": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bayu Rahman Adinata",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "env": "0.0.2",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "pg": "^7.14.0",
+    "typeorm": "^0.2.20"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
